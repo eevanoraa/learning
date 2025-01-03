@@ -25,7 +25,7 @@ if __name__ == "__main__":
     print(f"{result=}")
     print(f"{result.hex()}")
 
-    if result == bytes.fromhex("746865206b696420646f6e277420706c6179"):
+    if result == bytes.fromhex("746865206b696420646f6e277420706c6179"): 
         print("It's correct!")
     else:
         exit("xor didn't work")
